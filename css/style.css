@@ -1,0 +1,43 @@
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+
+body { margin: 0; font-size: 1em; line-height: 1.4; }
+
+/**********
+Sprite Sheet CSS
+***********/
+
+.sprite_r {
+	background-image:url('../img/spr_retina.jpg');
+	background-size: 308px 252px;
+	color:transparent;
+	text-indent:-9999px;
+}
+.sprite {
+	background-image:url('../img/spr_regular.jpg');	
+	color:transparent;
+	text-indent:-9999px;
+}
+.logo {
+	background-position:0 0;
+	width:308px;
+	height:50px;
+}
+.menu {
+	width:104px;
+	height:102px;
+}
+.add_contact:hover {
+	background-position:-2px -150px;
+}
+.add_contact {
+	background-position:-2px -49px;
+}
+.message {
+	background-position:-105px -50px;
+}
+.message:hover {
+	background-position:-105px -151px;
+}
+
+
+
